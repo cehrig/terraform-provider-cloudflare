@@ -10,7 +10,7 @@ require (
 	github.com/aws/aws-sdk-go v1.40.35 // indirect
 	github.com/bflad/tfproviderlint v0.27.1
 	github.com/client9/misspell v0.3.4
-	github.com/cloudflare/cloudflare-go v0.30.0
+	github.com/cloudflare/cloudflare-go v0.31.0
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golangci/golangci-lint v1.43.0
@@ -46,6 +46,8 @@ require (
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	google.golang.org/api v0.56.0 // indirect
 )
+
+require github.com/hashicorp/terraform-plugin-sdk v1.16.1
 
 require (
 	4d63.com/gochecknoglobals v0.1.0 // indirect
@@ -125,9 +127,11 @@ require (
 	github.com/hashicorp/hc-install v0.3.1 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hashicorp/logutils v1.0.0 // indirect
+	github.com/hashicorp/terraform-config-inspect v0.0.0-20191212124732-c6ae6269b9d7 // indirect
 	github.com/hashicorp/terraform-exec v0.15.0 // indirect
 	github.com/hashicorp/terraform-json v0.13.0 // indirect
 	github.com/hashicorp/terraform-plugin-log v0.2.0 // indirect
+	github.com/hashicorp/terraform-plugin-test/v2 v2.1.3 // indirect
 	github.com/hashicorp/terraform-registry-address v0.0.0-20210412075316-9b2996cce896 // indirect
 	github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
@@ -157,6 +161,7 @@ require (
 	github.com/mgechev/dots v0.0.0-20210922191527-e955255bf517 // indirect
 	github.com/mgechev/revive v1.1.2 // indirect
 	github.com/mitchellh/cli v1.1.2 // indirect
+	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db // indirect
 	github.com/mitchellh/copystructure v1.2.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
@@ -208,8 +213,11 @@ require (
 	github.com/ultraware/whitespace v0.0.4 // indirect
 	github.com/uudashr/gocognit v1.0.5 // indirect
 	github.com/vmihailenco/msgpack v4.0.4+incompatible // indirect
+	github.com/vmihailenco/msgpack/v4 v4.3.12 // indirect
+	github.com/vmihailenco/tagparser v0.1.1 // indirect
 	github.com/xanzy/ssh-agent v0.3.0 // indirect
 	github.com/yeya24/promlinter v0.1.0 // indirect
+	github.com/zclconf/go-cty-yaml v1.0.2 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/mod v0.5.0 // indirect
 	golang.org/x/tools v0.1.7 // indirect
